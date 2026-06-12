@@ -53,17 +53,17 @@ It will cover the following situations as chapters in pairs — the problems and
 
 **Key Concepts:**
 - **Punch card data encoding and processing**
-- Explains how information was represented using holes punched into cards, allowing computers to read and process data and instructions.
+    - Explains how information was represented using holes punched into cards, allowing computers to read and process data and instructions.
 - **Batch Processing Systems**
-- Describes how jobs were grouped together and processed automatically in sequence without direct user interaction.
+    - Describes how jobs were grouped together and processed automatically in sequence without direct user interaction.
 - **Magnetic drum memory operations**
-- Covers how magnetic drums stored data on a rotating surface and how read/write heads accessed information as the drum spun. 
+    - Covers how magnetic drums stored data on a rotating surface and how read/write heads accessed information as the drum spun. 
 - **Sequential data access**
-- Explains how data was stored and retrieved in a fixed order, requiring earlier records to be read before reaching the desired data.
+    - Explains how data was stored and retrieved in a fixed order, requiring earlier records to be read before reaching the desired data.
 - **Early computer input and storage methods**
-- Introduces the use of punch cards, paper tape, and magnetic drums as the primary methods for entering, storing, and retrieving data in early computers. 
+    - Introduces the use of punch cards, paper tape, and magnetic drums as the primary methods for entering, storing, and retrieving data in early computers. 
 - **Foundations of digital data storage**
-- Connects these early technologies to modern storage systems by showing how they established the basic principles of digital data encoding, storage, and retrieval.
+    - Connects these early technologies to modern storage systems by showing how they established the basic principles of digital data encoding, storage, and retrieval.
 
 ---
 
