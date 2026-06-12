@@ -163,7 +163,7 @@ This section describes the interactive components integrated into the exhibit to
 
 This interactive simulator allows visitors to enter text and see how it would be represented on a punch card. It helps visitors understand how early computers stored and processed data using punched holes as a form of data encoding.
 
-**Features:**
+**Interactive Elements/Features:**
 - Text input field for user-entered data
 - Real-time punch card visualization
 
@@ -180,7 +180,7 @@ This interactive simulator allows visitors to enter text and see how it would be
 
 This interactive simulator allows visitors to visualize how data is stored and retrieved in a hard disk drive using platters, tracks, and sectors. It helps visitors understand how mechanical movement and magnetic storage enable random access in HDDs.
 
-**Features:**
+**Interactive Elements/Features:**
 - Interactive rotating platter animation
 - Click-to-select data sectors on the disk
 - Read/write head movement visualization
@@ -199,7 +199,7 @@ This interactive simulator allows visitors to visualize how data is stored and r
 
 This interactive simulator allows visitors to convert text into binary and visualize how CDs and DVDs store data using pits (0) and lands (1). It helps users understand how optical media encodes digital information through physical surface patterns.
 
-**Features:**
+**Interactive Elements/Features:**
 - Text-to-binary conversion display
 - Pit and land visualization on disc tracks
 - Laser reading simulation
@@ -218,7 +218,7 @@ This interactive simulator allows visitors to convert text into binary and visua
 
 This interactive comparison allows visitors to explore how flash-based storage technologies improved data access speeds compared to traditional hard disk drives. By comparing HDDs, SATA SSDs, and NVMe SSDs, visitors learn how advances in storage architecture, NAND flash memory, and PCIe communication reduced latency and increased overall system performance.
 
-**Features:**
+**Interactive Elements/Features:**
 - Storage device selector (HDD, SATA SSD, NVMe SSD)
 - Real-time performance comparison display
 - Interactive visual showing data travel paths from storage to the CPU
@@ -239,7 +239,7 @@ This interactive comparison allows visitors to explore how flash-based storage t
 
 This interactive simulator allows visitors to choose different types of data and see where they would be stored using modern storage technologies. It helps visitors understand the differences between local storage, cloud storage, distributed systems, and emerging technologies such as DNA storage.
 
-**Features:**
+**Interactive Elements/Features:**
 - Selectable data types (photos, videos, documents, backups, archives)
 - Interactive storage technology cards
 - Explanation of storage location, scalability, and accessibility
