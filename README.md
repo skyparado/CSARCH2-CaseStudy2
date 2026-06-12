@@ -73,10 +73,15 @@ It will cover the following situations as chapters in pairs — the problems and
 
 **Key Concepts:**
 - Magnetic recording principles
+    - Covers how data is stored and retrieved using magnetic fields, and how read/write heads interact with magnetized surfaces to encode binary information.
 - Platters, read/write heads, and actuator arms
+    - Describes the physical components of a hard disk drive, how they work together to access data, and how their design evolved over time.
 - Random access vs. sequential access
+    - Explains the difference between random and sequential access, and how HDDs improved upon earlier storage technologies by allowing data to be retrieved in any order.
 - Storage capability scaling and areal density
+    - Introduces how manufacturers increased storage capacity over time by packing more data into the same physical space through advances in areal density.
 - HDD role in memory hierarchy
+    - Connects hard disk drives to the broader memory hierarchy which describes how HDDs served as the primary form of secondary storage for decades alongside faster but smaller primary memory.
 
 ---
 
@@ -86,10 +91,19 @@ It will cover the following situations as chapters in pairs — the problems and
 
 **Key Concepts:**
 - Optical data storage utilizing lasers
+    - Covers how lasers are used to read and write data for optical data.
+    - Understand how the properties of light enable data to be saved from the reflective surfaces.
 - CD and DVD data encoding and retrieval
+    - Describes how different types of media such as audio, video, and digital data are encoded onto CDs and DVDs.
+    - Know how the data reading process translates physical features into usable information digitally.
 - Pits and Lands as Binary Data Representation
+    - Explains how the pits and flat lands on the disc represent binary 0s and 1s.
 - Digital Media Distribution and Archival Storage
+    - Explores how discs became the preferred format for distributing media.
+    - How their durability and standardization made them suitable for long-term archives.
 - Offline/Tertiary Storage and Reimagination of Storage
+    - Connects optical media to the part it played in the storage hierarchy for offline storage.
+    - Know how its limitations and strengths inspired more innovative ideas on how data could be preserved and accessed beyond primary and secondary memory.
 
 ---
 
@@ -99,14 +113,23 @@ It will cover the following situations as chapters in pairs — the problems and
 
 **Key Concepts:**
 - NAND Flash Memory Architecture
+    - Explains the internal structure of NAND flash memory, including memory cells, pages, and blocks, and how electrical charges are used to represent binary data in non-volatile forms.
 - Solid-State Drives (SSDs)
+    - Describes how SSDs use flash memory chips, controllers, and firmware to store and manage data electronically, eliminating the mechanical limitations of traditional hard disk drives.
 - Non-Volatile Storage
+    - Covers the concept of storage that retains data even when power is removed, highlighting its importance in modern computing systems and long-term data preservation.
 - Wear Leveling and Flash Memory Lifespan
+    - Introduces the limitations of NAND flash cells, which can only endure a finite number of write cycles, and explains how wear-leveling algorithms distribute writes evenly to extend drive longevity.
 - SATA vs. NVMe Interfaces
+    - Compare the two major SSD interfaces, showing how SATA SSDs remain constrained by legacy hard drive communication standards while NVMe SSDs are designed to fully utilize the speed of flash storage.
 - PCI Express (PCIe) Communication
+    - Explains how NVMe drives communicate directly through PCIe lanes, reducing protocol overhead and enabling much higher bandwidth than traditional storage interfaces.
 - Storage Performance and Latency
+    - Examines the factors that affect storage speed, including access time, throughput, and latency, and how SSDs dramatically reduce delays compared to mechanical drives.
 - Input/Output Operations Per Second (IOPS)
+    - Covers the measurement of storage responsiveness by evaluating how many read and write operations a device can perform within a second, a key metric in enterprise and high-performance computing environments.
 - Modern Memory Hierarchy
+    - Connects SSDs and NVMe storage to the broader memory hierarchy, illustrating how advances in flash technology have narrowed the performance gap between secondary storage and primary memory while supporting the growing demands of modern applications, cloud computing, and data-intensive workloads.
 
 ---
 
@@ -116,14 +139,19 @@ It will cover the following situations as chapters in pairs — the problems and
 
 **Key Concepts:**
 - Cloud Storage Architecture
+    - Explains how cloud storage works at a high level, including how data is sent, stored, and retrieved across remote servers through the internet.
 - Data Centers
-- Distributed Storage Systems
+    - Describes what data centers are, how they are physically structured, and how they power and cool thousands of servers to keep data available 24/7.
+- Distributed Storage Systems and Data Reliability
+    - Introduces concepts such as RAID, data replication, sharding, backup, and redundancy, explaining how large-scale storage systems distribute and duplicate data across multiple servers and locations to improve reliability, availability, and performance.
 - DNA Storage
-- Modern Data Storage Methods
+    - Discusses how biological DNA can be used to encode digital data, its current state of research, its massive storage potential, and the challenges that still prevent real-world adoption.
+- Cloud Storage and Scalability
+    - Explains how cloud storage enables users and organizations to store and access data through remote servers while easily scaling storage capacity to meet growing data demands.
 - Data Access and Retrieval
-- Storage Capacity and Scalability
-- Data Backup and Redundancy
+    - Explains how stored data is located, accessed, and retrieved efficiently through indexing, caching, networking, and storage management techniques.
 - Emerging Storage Technologies
+    - Briefly covers next-generation storage ideas such as holographic storage and neuromorphic storage, giving visitors a glimpse of what the future of data storage may look like.
 
 ---
 
@@ -286,3 +314,39 @@ This section presents the preliminary visual and design direction for the virtua
 **Figure 2.** Mobile Layout Mockup of the "Full Capacity" Virtual Exhibit Landing Page
 
 ![Mobile Home](images/proposal/mobile_home.png)
+
+---
+
+**Figure 3.** Mockup of Interactive Element 1: Text-to-Punch Card Simulator
+
+![Punch Card](images/proposal/punch_card.png)
+
+---
+
+**Figure 4.** Mockup of Interactive Element 2: Optical Media Presentation
+
+![Optical Media](images/proposal/optical_media.png)
+
+---
+
+**Figure 5.** Mockup of Interactive Element 3: SSD Speed Challenge
+
+![SSD Speed](images/proposal/ssd_speed.png)
+
+---
+
+**Figure 6.** Mockup of Interactive Element 4: Data Storage Destination Simulator
+
+![Destination Simulator](images/proposal/destination_simulator.png)
+
+---
+
+**Figure 7.** Mockup of Interactive Element 5: HDD Read/Write Simulator
+
+![HDD Simulator](images/proposal/hdd_simulator.png)
+
+---
+
+## V. AI USAGE DECLARATION
+
+The group utilized AI assistants, namely Claude and ChatGPT, to support the writing and preparation of this proposal. Specifically, the AI was used to assist in formatting and structuring the document to provide guidance on what content should be included in each section, and checking grammar and writing clarity throughout the paper. All AI-generated suggestions were reviewed, revised, and approved by the group to ensure accuracy and alignment with the project's goals. The core ideas, technical decisions, and overall direction of the project remain the original work of the group.
