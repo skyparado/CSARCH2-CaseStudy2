@@ -52,17 +52,17 @@ It will cover the following situations as chapters in pairs — the problems and
 **Description:** This section explores the earliest forms of computer data storage and processing. It examines how punch cards were used to encode and input data, and how magnetic drums served as one of the first electronic storage devices. These technologies established the foundations of data representation, storage, and retrieval in early computer systems.
 
 **Key Concepts:**
-- **Punch card data encoding and processing**
+- **Punch card data encoding and processing** *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
     - Explains how information was represented using holes punched into cards, allowing computers to read and process data and instructions.
-- **Batch Processing Systems**
+- **Batch Processing Systems** *(Revised)*
     - Describes how jobs were grouped together and processed automatically in sequence without direct user interaction.
-- **Magnetic drum memory operations**
+- **Magnetic drum memory operations** *(Revised)*
     - Covers how magnetic drums stored data on a rotating surface and how read/write heads accessed information as the drum spun. 
-- **Sequential data access**
+- **Sequential data access** *(Revised)*
     - Explains how data was stored and retrieved in a fixed order, requiring earlier records to be read before reaching the desired data.
-- **Early computer input and storage methods**
+- **Early computer input and storage methods** *(Revised)*
     - Introduces the use of punch cards, paper tape, and magnetic drums as the primary methods for entering, storing, and retrieving data in early computers. 
-- **Foundations of digital data storage**
+- **Foundations of digital data storage** *(Revised)*
     - Connects these early technologies to modern storage systems by showing how they established the basic principles of digital data encoding, storage, and retrieval.
 
 ---
@@ -72,15 +72,15 @@ It will cover the following situations as chapters in pairs — the problems and
 **Description:** This section looks at the evolution of magnetic disk storage, starting with IBM's first hard disk drive in 1956 and continuing to today's multi-terabyte HDDs. It examines how magnetic storage changed the random access memory hierarchy and became the main type of secondary storage for many years.
 
 **Key Concepts:**
-- Magnetic recording principles
+- Magnetic recording principles *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
     - Covers how data is stored and retrieved using magnetic fields, and how read/write heads interact with magnetized surfaces to encode binary information.
-- Platters, read/write heads, and actuator arms
+- Platters, read/write heads, and actuator arms *(Revised)*
     - Describes the physical components of a hard disk drive, how they work together to access data, and how their design evolved over time.
-- Random access vs. sequential access
+- Random access vs. sequential access *(Revised)*
     - Explains the difference between random and sequential access, and how HDDs improved upon earlier storage technologies by allowing data to be retrieved in any order.
-- Storage capability scaling and areal density
+- Storage capability scaling and areal density *(Revised)*
     - Introduces how manufacturers increased storage capacity over time by packing more data into the same physical space through advances in areal density.
-- HDD role in memory hierarchy
+- HDD role in memory hierarchy *(Revised)*
     - Connects hard disk drives to the broader memory hierarchy which describes how HDDs served as the primary form of secondary storage for decades alongside faster but smaller primary memory.
 
 ---
@@ -90,18 +90,18 @@ It will cover the following situations as chapters in pairs — the problems and
 **Description:** This section shows the evolution from magnetic storage to CDs and DVDs, improving durability and longevity by using laser reading. It explores how data is read and written on these devices using the pits and lands on disc surfaces, and how optical media provided the gateway to larger storage capacities used in software distribution and long-term archiving.
 
 **Key Concepts:**
-- Optical data storage utilizing lasers
+- Optical data storage utilizing lasers *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
     - Covers how lasers are used to read and write data for optical data.
     - Understand how the properties of light enable data to be saved from the reflective surfaces.
-- CD and DVD data encoding and retrieval
+- CD and DVD data encoding and retrieval *(Revised)*
     - Describes how different types of media such as audio, video, and digital data are encoded onto CDs and DVDs.
     - Know how the data reading process translates physical features into usable information digitally.
-- Pits and Lands as Binary Data Representation
+- Pits and Lands as Binary Data Representation *(Revised)*
     - Explains how the pits and flat lands on the disc represent binary 0s and 1s.
-- Digital Media Distribution and Archival Storage
+- Digital Media Distribution and Archival Storage *(Revised)*
     - Explores how discs became the preferred format for distributing media.
     - How their durability and standardization made them suitable for long-term archives.
-- Offline/Tertiary Storage and Reimagination of Storage
+- Offline/Tertiary Storage and Reimagination of Storage *(Revised)*
     - Connects optical media to the part it played in the storage hierarchy for offline storage.
     - Know how its limitations and strengths inspired more innovative ideas on how data could be preserved and accessed beyond primary and secondary memory.
 
@@ -112,23 +112,23 @@ It will cover the following situations as chapters in pairs — the problems and
 **Description:** This section explores the transition from mechanical storage devices to flash-based storage technologies. It examines how Solid-State Drives (SSDs) use NAND flash memory to store data electronically without moving parts, significantly improving speed, reliability, and power efficiency. The section also discusses the development of NVMe (Non-Volatile Memory Express), a modern storage interface designed to fully utilize the performance potential of flash memory by communicating directly with the system through high-speed PCIe connections.
 
 **Key Concepts:**
-- NAND Flash Memory Architecture
+- NAND Flash Memory Architecture *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
     - Explains the internal structure of NAND flash memory, including memory cells, pages, and blocks, and how electrical charges are used to represent binary data in non-volatile forms.
-- Solid-State Drives (SSDs)
+- Solid-State Drives (SSDs) *(Revised)*
     - Describes how SSDs use flash memory chips, controllers, and firmware to store and manage data electronically, eliminating the mechanical limitations of traditional hard disk drives.
-- Non-Volatile Storage
+- Non-Volatile Storage *(Revised)*
     - Covers the concept of storage that retains data even when power is removed, highlighting its importance in modern computing systems and long-term data preservation.
-- Wear Leveling and Flash Memory Lifespan
+- Wear Leveling and Flash Memory Lifespan *(Revised)*
     - Introduces the limitations of NAND flash cells, which can only endure a finite number of write cycles, and explains how wear-leveling algorithms distribute writes evenly to extend drive longevity.
-- SATA vs. NVMe Interfaces
+- SATA vs. NVMe Interfaces *(Revised)*
     - Compare the two major SSD interfaces, showing how SATA SSDs remain constrained by legacy hard drive communication standards while NVMe SSDs are designed to fully utilize the speed of flash storage.
-- PCI Express (PCIe) Communication
+- PCI Express (PCIe) Communication *(Revised)*
     - Explains how NVMe drives communicate directly through PCIe lanes, reducing protocol overhead and enabling much higher bandwidth than traditional storage interfaces.
-- Storage Performance and Latency
+- Storage Performance and Latency *(Revised)*
     - Examines the factors that affect storage speed, including access time, throughput, and latency, and how SSDs dramatically reduce delays compared to mechanical drives.
-- Input/Output Operations Per Second (IOPS)
+- Input/Output Operations Per Second (IOPS) *(Revised)*
     - Covers the measurement of storage responsiveness by evaluating how many read and write operations a device can perform within a second, a key metric in enterprise and high-performance computing environments.
-- Modern Memory Hierarchy
+- Modern Memory Hierarchy *(Revised)*
     - Connects SSDs and NVMe storage to the broader memory hierarchy, illustrating how advances in flash technology have narrowed the performance gap between secondary storage and primary memory while supporting the growing demands of modern applications, cloud computing, and data-intensive workloads.
 
 ---
@@ -138,19 +138,19 @@ It will cover the following situations as chapters in pairs — the problems and
 **Description:** This section explores cloud storage, DNA storage, and other emerging storage technologies. It discusses how these technologies are currently used to store, manage, and access data in modern computing environments.
 
 **Key Concepts:**
-- Cloud Storage Architecture
+- Cloud Storage Architecture *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
     - Explains how cloud storage works at a high level, including how data is sent, stored, and retrieved across remote servers through the internet.
-- Data Centers
+- Data Centers *(Revised)*
     - Describes what data centers are, how they are physically structured, and how they power and cool thousands of servers to keep data available 24/7.
-- Distributed Storage Systems and Data Reliability
+- Distributed Storage Systems and Data Reliability *(Revised)*
     - Introduces concepts such as RAID, data replication, sharding, backup, and redundancy, explaining how large-scale storage systems distribute and duplicate data across multiple servers and locations to improve reliability, availability, and performance.
-- DNA Storage
+- DNA Storage *(Revised)*
     - Discusses how biological DNA can be used to encode digital data, its current state of research, its massive storage potential, and the challenges that still prevent real-world adoption.
-- Cloud Storage and Scalability
+- Cloud Storage and Scalability *(Revised)*
     - Explains how cloud storage enables users and organizations to store and access data through remote servers while easily scaling storage capacity to meet growing data demands.
-- Data Access and Retrieval
+- Data Access and Retrieval *(Revised)*
     - Explains how stored data is located, accessed, and retrieved efficiently through indexing, caching, networking, and storage management techniques.
-- Emerging Storage Technologies
+- Emerging Storage Technologies *(Revised)*
     - Briefly covers next-generation storage ideas such as holographic storage and neuromorphic storage, giving visitors a glimpse of what the future of data storage may look like.
 
 ---
@@ -303,7 +303,7 @@ This section presents the preliminary visual and design direction for the virtua
 
 ---
 
-## Appendices
+## Appendices *(Revised)* [Revision Notes](%5BREVISION%20NOTES%5D%20%5BCSARCH2%5D%20S01%20Group%207%20-%20Case%20Study%20Project%20%232%20Proposal.pdf)
 
 **Figure 1.** Desktop Layout Mockup of the "Full Capacity" Virtual Exhibit Landing Page
 
